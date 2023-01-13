@@ -1,0 +1,15 @@
+GET http://localhost:4000/user HTTP/1.1
+
+###
+GET http://localhost:4000/user/63694bd488cb8beecbda29b2 HTTP/1.1
+###
+POST http://localhost:4000/user
+Content-Type: application/json
+
+{
+    "name":"who is that",
+    "content":"whats is going"
+}
+
+###
+DELETE https://againcrud9.herokuapp.com/user/6370bcea6d1ab396bb9c6266
